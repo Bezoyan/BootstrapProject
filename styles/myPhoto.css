@@ -1,0 +1,153 @@
+.myphoto-section {
+	min-height: 500px;
+}
+
+.bg-myphoto-dark {
+ background-color: #504747;
+ color: white;
+ }
+
+ .bg-myphoto-light {
+ background-color: white;
+ color: #504747;
+ }
+
+/* .jumbotron-welcome {
+ background-image: url('../images/skyline.jpg');
+ background-size: cover;
+ color: white;
+ } */
+
+ .bg-myphoto-welcome {
+  background-image: url('../images/skyline.jpg');
+  background-size: cover;
+  color: #504747;
+  }
+
+	.bg-myphoto-dark .nav-tabs a {
+	 color: white;
+	 }
+
+	 .navbar-myphoto {
+	 background-color: #2A2A2C;
+	 border-color: black;
+	 border-radius: 0;
+	 margin-bottom: 0px;
+	 }
+	 .navbar-myphoto .navbar-brand {
+	 color: white;
+	 font-weight: bold;
+	 }
+	 .navbar-myphoto .navbar-nav > li > a {
+	 color: white;
+	 }
+	 .navbar-myphoto .navbar-nav > li > a:hover {
+	 background-color: #2A2A2C;
+	 color: gray;
+	 }
+	 .navbar-myphoto .navbar-nav > li > a:focus {
+	 background-color: #504747;
+	 color: gray;
+	 }
+	 .navbar-myphoto .navbar-nav > li.active > a {
+	 background-color: #504747;
+	 color: gray;
+	 }
+	 .navbar-myphoto .dropdown-menu {
+	 background-color: #504747;
+	 border-color: black;
+	 }
+	 .navbar-myphoto .dropdown-menu > a {
+	 color: white;
+	 background-color: #504747;
+	 }
+	 .navbar-myphoto .dropdown-menu > a:hover {
+	 color: gray;
+	 background-color: #504747;
+	 }
+	 .navbar-myphoto .dropdown-menu > a:focus {
+	 color: gray;
+	 background-color: #504747;
+	 }
+	 .navbar-myphoto .dropdown-menu > .active > a:focus {
+	 color: gray;
+	 background-color: #504747;
+	 }
+
+ .navbar-myphoto > .navbar-toggler {
+ color: white;
+ }
+ .nav-pills > .active > a, .nav-pills > .active > a:hover {
+ background-color: grey;
+ }
+ .nav-pills .nav-link .active, .nav-pills .nav-link .active:focus,
+ .nav-pills .nav-link .active:hover,
+ .nav-pills .nav-item .open .nav-link,
+ .nav-pills .nav-item .open.nav-link:focus,
+ .nav-pills .nav-item .open.nav-link:hover {
+ background-color: grey;
+ }
+
+ h1, h2, h3, h4, h5, h6, .nav, .navbar {
+  font-family: 'Poiret One', cursive;
+  }
+  body {
+  font-family: 'Lato', cursive;
+  }
+
+.alert-danger {
+ background-color: #a94342;
+ color: white;
+ }
+
+ .alert-myphoto {
+ background-color: #a94342;
+ color: white;
+ position: fixed;
+ margin-top: 4em;
+ width: 90%;
+ margin-left: 4em;
+ z-index: 3000;
+ }
+/*#unsupported-browser-alert {
+ position: fixed;
+ margin-top: 4em;
+ width: 90%;
+ margin-left: 4em;
+ }*/
+
+ footer p {
+ display: inline;
+ margin-left: 10px;
+ }
+ footer a {
+ color: inherit ;
+ }
+
+#services-events .container {
+ margin-left: 2rem;
+ padding-top: 1rem;
+ }
+
+.myphoto-testimonial-row {
+ margin-right : 5px;
+ }
+ .myphoto-testimonial-column
+ {
+ border: 1px solid black; background-color: #FFFFFF;
+ padding: 10px;
+ margin: 5px;
+ max-width: 23%;
+ color: black;
+ }
+
+ .animated {
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both
+ }
+ .animated.hinge {
+ -webkit-animation-duration:2s;
+ animation-duration:2s
+ }
